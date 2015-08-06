@@ -1,0 +1,839 @@
+@font-face{
+
+    font-family: 'BNazanin';
+    src: url('fonts/BNazanin.ttf');
+    src: url('fonts/BNazanin.woff') format('woff'),
+         url('fonts/BNazanin.eot') 	format('truetype');
+    font-weight: normal;
+    font-style:  normal;
+ }
+
+	*,header,div,footer{
+	outline: 0px dashed red;
+}
+body{
+	background-image: 		url(images/backpic/1.jpg);
+	background-repeat: 		no-repeat;
+	background-position: 	top center;
+	background-size: 		cover;
+	background-attachment:  fixed;
+	z-index: 				-5;
+	font-family: 			'BNazanin';
+}
+
+div.content-container{
+	margin: 				0 auto;
+	width: 					980px;
+}
+
+.content-container header.head{
+	width: 					inherit;
+	z-index: 				100;
+}
+.content-container header.head .contain{
+	width: 					inherit;
+}
+
+.content-container header.head .contain .menubar{
+	width: 					inherit;
+	min-height: 			242px;
+	
+	
+}
+.content-container header.head .contain .menubar .logo{
+	float: 					left;
+	margin-top: 			0px;
+}
+.content-container header.head .contain .menubar .logo img{
+	width: 					290px;
+	min-height: 			110px;
+	
+}
+.content-container header.head .contain .menubar .menu{
+	width: 					485px;
+	min-height: 			250px;
+	margin-left: 			600px;
+	font-weight: 			bolder;
+	position: 				absolute;
+}
+
+.content-container header.head .contain .menubar .menu ul{
+	list-style-type:		none;	
+	width: 					460px;
+}
+
+.content-container header.head .contain .menubar .menu ul li{
+	float: 					right;
+	width: 					85px;
+	min-height: 			250px;
+	text-align: 			center;
+	display: 				inline-block;
+}
+
+.content-container header.head .contain .menubar .menu ul li a{
+	text-decoration: 		none;
+	color:					#000;
+	display: 				inline-block;
+	font: 					15px/242px 'Playfair Display', 'Times New Roman', serif;
+	font-weight: 			bolder;
+	text-transform: 		capitalize;
+	width: 					100%;
+	height: 				100%;
+	letter-spacing: 		1px;
+	background-image: 		url(images/menu_bg.png);
+	background-repeat: 		no-repeat;
+	background-size: 		cover;
+	background-position: 	0px -250px;
+	-webkit-transition: 	all 1s;
+  	-moz-transition: 		all 1s;
+  	-o-transition: 			all 1s;
+  	-os-transition: 		all 1s;
+}
+.content-container header.head .contain .menubar .menu ul li a:hover{
+	background-position: 	0 0;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-ms-transition: 		all 500ms;
+  	
+}
+/* ... End MENUBAR ... */
+
+section.middle{
+	min-height: 550px;
+	opacity: 	1;
+}
+
+/*  Slide & Footer  */
+footer.foot{
+	margin:  				0 auto;
+	width: 					100%;
+	right: 					0;
+	left: 					0;
+	min-height: 			250px;
+	background-image: 		url(images/footer_bg.png);
+	background-repeat: 		repeat-x;
+	padding: 				1px; 
+	position: 				absolute;
+	
+}
+footer.foot .contain{
+	width: 					980px;
+	margin: 				0 auto;
+	padding: 				1px;
+	direction: 				rtl;
+	text-align: 			right;
+	color: 					#ccc;
+}
+
+footer.foot .contain .box1, footer.foot .contain .box2, footer.foot .contain .box3{
+	float: 					left;
+	width: 					245px;
+	min-height: 			250px;
+}
+footer.foot .contain .box4{
+	float: 					none;
+	margin-left: 			735px;
+
+}
+footer.foot .contain .box1 h4, footer.foot .contain .box2 h4, footer.foot .contain .box3 h4, footer.foot .contain .box4 h4{
+	margin-top: 			10px;
+}
+footer.foot .contain .box1 p, footer.foot .contain .box2 p, footer.foot .contain .box3 p, footer.foot .contain .box4 p{
+	margin-right: 			10px;	
+	margin-left: 			25px;	
+	margin-top: 			15px;
+}
+footer.foot .contain a{
+	color: 					inherit;
+	text-decoration: 		none;
+}
+footer.foot .contain h4{
+	font-size: 				16px;
+	color: 					#fff;
+}
+footer.foot .contain img{
+	width: 					30px;
+	height: 				30px;
+	cursor: 				pointer;
+}
+/*  ...Footer Text...   */
+footer.foot .text{
+	width: 					500px;
+	height: 				30px;
+	margin: 				0 auto;
+	margin-top:				100px;
+	color: 					#fff;
+	text-align: 			center;
+	bottom: 				30px;
+}
+
+footer.foot .text p {
+	color: 					#fff;
+	font-size: 				15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- HOME Page --- */
+
+section.middle .aboutpg{
+	background-color:		white;
+	width: 					inherit;
+	min-height: 			600px;
+	opacity: 				1;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	
+	
+}
+section.middle .aboutpg .text{				
+	width: 					940px;
+	min-height: 			400px;
+	margin: 				0 auto;
+	margin-top: 			60px;
+	direction: 				rtl;
+	text-align: 			justify;
+	line-height: 			26px;
+}
+section.middle .aboutpg .text h2{
+	margin-right: 			50px;
+}
+section.middle .aboutpg .text p{
+	font-size: 					17px; 
+	font-style: 				normal;
+	margin-right: 				50px;
+	text-align: 				justify;
+}
+section.middle .aboutpg .text p span{
+	margin-right: 				710px;
+}
+section.middle .aboutpg .text img{
+	width: 					400px;
+	height: 				250px;
+	border-radius: 			10px;
+	float: 					left;
+}
+
+
+
+
+
+
+
+
+
+
+/* --- Contact Page --- */
+
+section.Ajaxloader div.contact{
+	background-color: 		#fff;
+	width: 					inherit;
+	min-height: 			600px;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	opacity: 				1;
+	direction: 				rtl;	
+	text-align: 			left;
+	
+}
+
+section.Ajaxloader div.contact .leftcontact, section.Ajaxloader div.contact .rightcontact{
+	width: 					450px;
+	min-height: 			500px;
+	margin-top: 			25px;
+	float: 					right;
+	margin-right: 			30px;
+	text-align: 			right;
+	color: 					#555;
+
+}
+section.Ajaxloader div.contact .rightcontact input{
+	width: 					300px;
+	min-height: 			25px;
+	margin-top: 			80px;
+	border-radius: 			10px;
+	border: 				inset 2px;
+	text-align: 			right;
+}
+section.Ajaxloader div.contact .rightcontact .email, section.Ajaxloader div.contact .rightcontact .messege{
+	margin-top: 			13px;
+	border-radius: 			10px;
+	border: 				inset 2px;
+	text-align: 			right;
+}
+section.Ajaxloader div.contact .rightcontact .messege{
+	min-height: 			200px;
+	width: 					420px;
+	border-radius: 			10px;
+	border: 				inset 2px;
+}
+section.Ajaxloader div.contact .rightcontact input.but{
+	margin-top: 			20px;
+	color: 					black;
+	font:					15px monospace;
+	text-decoration: 		none;
+	cursor: 				pointer;
+	border: 				none;
+	background-color: 		#555;
+	text-align: 			center;
+	width: 					110px;
+	height: 				30px;
+	color: 					#fff;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+
+}
+section.Ajaxloader div.contact .rightcontact input.but:hover{
+	background-color: 		#111;
+	color: 					#eee;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+}
+section.Ajaxloader div.contact .rightcontact iframe{
+	opacity: 				0;
+}
+section.Ajaxloader div.contact .rightcontact a:hover{
+	text-decoration: 		underline;
+}	
+section.Ajaxloader div.contact .leftcontact{
+	margin-right: 			520px;
+	float: 					none;
+	text-align: 			right;
+	margin-top: 			50px;
+}
+section.Ajaxloader div.contact .leftcontact p{
+	margin-top: 			180px;
+	line-height: 			25px;
+	margin-right: 			25px;
+	color: 					#000;
+}
+section.Ajaxloader div.contact .leftcontact ul{
+	margin-top: 			50px;
+	margin-right: 			50px;
+}
+section.Ajaxloader div.contact .leftcontact ul li{
+	float: 					right;
+	margin-right: 			5px;
+	border-right: 			8px solid transparent;
+}
+section.Ajaxloader div.contact .leftcontact ul li img{
+	width: 					35px;
+	height: 				35px;
+}
+section.Ajaxloader div.contact .leftcontact ul li img:hover{
+	opacity:				1;
+	cursor: 				pointer;
+}
+section.Ajaxloader div.contact .leftcontact span{
+	margin-right: 			60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gallery Page */
+section.Ajaxloader div.gallery{
+	background-color:		white;
+	width: 					inherit;
+	min-height: 			800px;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	opacity: 				1;
+	
+}
+
+section.Ajaxloader div.gallery ul{
+	padding-top: 25px;
+	margin-right: 60px;
+}
+
+section.Ajaxloader div.gallery ul li{
+	float: right;
+	margin-right: 18px;
+	height: 250px;
+}
+
+section.Ajaxloader div.gallery ul li a{
+	display: block;
+	position: relative;
+}
+
+section.Ajaxloader div.gallery ul li .effe{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: url('./images/magnify.png') center center no-repeat #000;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
+section.Ajaxloader div.gallery ul li .effe:hover{
+	opacity: 				0.4;
+	-webkit-transition: opacity 800ms;
+	-moz-transition: opacity 800ms;
+	-ms-transition: opacity 800ms;
+	-o-transition: opacity 800ms;
+	transition: opacity 800ms;
+}
+
+section.Ajaxloader div.gallery ul li img{
+	width: 			265px;
+	height: 		177px;
+	border-radius: 	6px;
+}
+
+section.Ajaxloader div.gallery ul li p{
+	margin-top: 11px;
+	color: #deae54;
+	font-size: 18px;
+	text-align: 				justify;
+}
+section.Ajaxloader div.gallery .links{
+	direction: 				rtl;
+	margin: 				0 auto;
+	text-align: 			center;
+	margin-bottom: 			20px;
+}
+section.Ajaxloader div.gallery .links a{
+	color: 					#fff;
+	text-decoration: 		none;
+	padding: 				3px 14px;
+	background-color: 		#777;
+	border-radius: 			1000px;
+	font-size: 				18px;
+	-webkit-transition: all 300ms;
+	-moz-transition: 	all 300ms;
+	-ms-transition: 	all 300ms;
+	-o-transition: 		all 300ms;
+	transition: 		all 300ms;
+}	
+section.Ajaxloader div.gallery .links a:hover{
+	background-color: 		#111;	
+	-webkit-transition: all 800ms;
+	-moz-transition: 	all 800ms;
+	-ms-transition: 	all 800ms;
+	-o-transition: 		all 800ms;
+	transition: 		all 800ms;
+}
+section.Ajaxloader div.gallery .links a:active{
+	background-color: 		#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Players Page */
+section.middle div.gallery{
+	background-color: 		#fff;
+	width: 					inherit;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	text-align: 			right;
+	direction: 				rtl;
+
+
+}
+section.middle div.gallery .contain{
+	width: 					950px;
+	min-height: 			250px;
+	padding: 				1px;
+
+}
+section.middle div.gallery .contain a{
+	
+}
+section.middle div.gallery .contain a img{
+	float: 					right;
+	margin-right: 			20px;
+	margin-top: 			50px;
+	width: 					190px;
+	height: 				190px;
+	border-radius: 			11px;
+	opacity: 				0.9;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 	500ms;
+	-ms-transition: opacity 	500ms;
+	-o-transition: opacity 		500ms;
+	transition: opacity 		500ms;
+}
+section.middle div.gallery .contain a img:hover{
+	opacity: 					1;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+section.middle div.gallery .contain h3{
+	margin-top: 			40px;
+	margin-right: 			230px;
+	color: 					#333;
+	font-weight: 			bold;
+}
+section.middle div.gallery .contain p{
+	margin-right: 			250px;
+	color: 					#000;
+	font-size: 				18px;
+	margin-top: 			10px;
+	line-height: 			28px;
+	text-align: 			justify;
+}
+section.middle div.gallery .two a img{
+	float: 					left;
+	margin-left: 			20px;
+}
+section.middle div.gallery .two h3{
+	margin-right: 			600px;
+}
+section.middle div.gallery .two p{
+	margin-right: 			50px;
+}
+
+section.middle div.gallery .contain .font{
+	font-size: 				20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Consert Page */
+section.middle .consert{
+	background-color:		white;
+	width: 					inherit;
+	min-height: 			600px;
+	opacity: 				1;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	outline: 				0px solid red;
+}
+section.middle .consert .leftbox{
+	width: 					400px;
+	min-height: 			inherit;
+	float: 					left;
+	margin-left: 			0px;
+	margin-top: 			25px;
+	outline: 				0px solid red;
+	vertical-align: 		middle;
+}
+section.middle .consert .rightbox{
+	margin-left: 			430px;
+	min-height: 			inherit;
+	margin-top: 			25px;
+	text-align: 			right;
+	direction: 				rtl;
+	outline: 				0px solid blue;
+}
+section.middle .consert .leftbox img{
+	width: 					300px;
+	height: 				200px;
+	margin-left: 			30px;
+	border-radius: 			8px;
+	margin-top: 			120px;
+}
+section.middle .consert .leftbox .myheight{
+	width: 					inherit;
+	min-height: 			420px;
+	text-align: 			left;
+	outline: 				0px solid black;
+}
+section.middle .consert .rightbox .myheight{
+	width: 					inherit;
+	min-height: 			420px;
+	margin-right: 			25px;
+	outline: 				0px solid black;
+	text-align: 			right justify;
+}
+section.middle .consert .rightbox h1{
+
+}
+section.middle .consert .rightbox h3{
+	font-size: 				19px;
+	margin-top: 			15px;
+	text-align: 			right;
+}
+
+section.middle .consert .rightbox p{
+	font-size: 				18px;
+	margin-top: 			20px;
+	text-align: 			right;
+}
+
+
+
+
+
+
+
+
+/*   Tanbooor Biography        */
+
+
+section.middle div.tanbour{
+	background-color: 		#fff;
+	width: 					inherit;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	text-align: 			right;
+	direction: 				rtl;
+	min-height: 			1400;
+}
+
+
+section.middle div.tanbour .contain .up-part{
+	width: 						inherit;
+	min-height: 				200px;
+	text-align: 				middle;
+	/*background-color:			red;*/
+
+}
+section.middle div.tanbour .contain .up-part h3 {
+	font-size: 					24px;
+	line-height: 				1.2em;
+	letter-spacing: 			2px;
+	font-family: 				"BNazanin";
+}
+section.middle div.tanbour .contain .up-part{
+	margin-left: 				290px;
+	min-height: 				80px;
+	margin-right: 				0px;
+}
+section.middle div.tanbour .contain .up-part ul{
+	width: 						810px;
+	margin-right: 				85px;
+	min-height: 				inherit;
+	margin-top: 				180px;
+}
+section.middle div.tanbour .contain .up-part ul li{
+	float: 						right;
+	margin-right: 				5px;
+	margin-top: 				0px;
+	width: 						125px;
+	height: 					60px;
+	text-align: 				center;
+	border-radius: 				15px;
+	margin-left: 				5px;
+	line-height: 				0px;
+	box-shadow: 				1px 5px 7px 1px #000;
+	-webkit-transition: 		all 600ms;
+  	-moz-transition: 			all 600ms;
+  	-o-transition: 				all 600ms;
+  	-os-transition: 			all 600ms;
+}
+section.middle div.tanbour .contain .up-part ul li:first-child{
+	
+}
+section.middle div.tanbour .contain .up-part ul li:last-child{
+	
+}
+section.middle div.tanbour .contain .up-part ul li a:active{
+-webkit-transition: 	all 1000ms;
+  	-moz-transition: 		all 1000ms;
+  	-o-transition: 			all 1000ms;
+  	-os-transition: 		all 1000ms;
+
+}
+section.middle div.tanbour .contain .up-part ul li a{
+	text-decoration: 		none;
+	color:					#000;
+	display: 				inline-block;
+	border-radius: 			15px;
+	font-size: 				14px;
+	letter-spacing: 		0px;
+	font-weight: 			bold;
+	width: 					100%;
+	height: 				100%;
+	line-height:			55px;
+	-webkit-transition: 	all 1000ms;
+  	-moz-transition: 		all 1000ms;
+  	-o-transition: 			all 1000ms;
+  	-os-transition: 		all 1000ms;
+}
+section.middle div.tanbour .contain .up-part ul li:active{
+-webkit-transition: 		all 1000ms;
+  	-moz-transition: 		all 1000ms;
+  	-o-transition: 			all 1000ms;
+  	-os-transition: 		all 1000ms;
+
+}
+section.middle div.tanbour .contain .up-part ul li a:hover{
+	color: 					#111;
+	background-color: 		gray;
+	-webkit-transition: 	all 200ms;
+  	-moz-transition: 		all 200ms;
+  	-o-transition: 			all 200ms;
+  	-os-transition: 		all 200ms;
+}
+
+section.middle div.tanbour .contain .up-part ul li.mosighi{
+	overflow: 				hidden;
+}
+
+section.middle div.tanbour .contain .up-part ul li.mosighi:hover{
+	overflow: 				visible;
+}
+section.middle div.tanbour .contain .up-part ul li ul{
+	width: 					80px;
+	margin: 				0 auto;
+	margin-right: 			-20px;
+	widows: 				20px;
+	z-index: 				10;
+	position: 				relative;
+}
+section.middle div.tanbour .contain .up-part ul li ul li{
+	height: 				30px;
+	margin-top: 			0px;
+	float: 					none;
+	text-align: 			center;
+	width: 					160px;
+	height: 				35px;
+	border-radius: 		 	0;
+	background-color: 		white;
+	line-height: 			30px;
+}
+
+section.middle div.tanbour .contain .up-part ul li ul li a{
+	width: 					100%;
+	height: 				100%;
+	line-height: 			30px;
+	background-color: 		white;
+	
+}
+section.middle div.tanbour .contain .up-part ul li ul li a:hover{
+	background-color: 		gray;
+	border-radius: 			8px;
+	width: 					90%;
+	height: 				90%;
+}
+section.middle div.tanbour .contain .up-part ul li ul li:first-child{
+
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+section.middle div.tanbour .contain .up-part ul li ul li:last-child{
+	margin-bottom: 				0px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+
+section.middle div.tanbour .contain .down-part{
+	width: 						inherit;
+	min-height: 				650px;
+	text-align: 				center;
+	direction: 					ltr;
+	outline: 					10px;
+}
+section.middle div.tanbour .contain .down-part h3{
+	font-size: 					25px;
+	font-weight: 				bolder;
+	text-align: 				right;
+	margin-right: 				20px;
+}
+section.middle div.tanbour .contain .down-part .subtitle{
+	margin-right: 				45px;
+	text-align: 				justify;
+}
+section.middle div.tanbour .contain .down-part p{
+	font-size: 					20px;
+	text-align:					right;
+	text-align: 				justify;
+	direction: 					rtl;
+	margin-top: 				30px;
+	margin-right: 				25px;
+	margin-left: 				25px;
+	line-height: 				30px;
+
+}
+section.middle div.tanbour div.contain h1{
+	
+	font: 					27px/52px 'Playfair Display', 'Times New Roman', serif;
+	letter-spacing: 		3px;
+	text-align: 			center;
+}
+
+section.middle div.tanbour div.contain img{
+	width: 					500px;
+	height: 				300px;
+	margin-right: 			240px;
+}
