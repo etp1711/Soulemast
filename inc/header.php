@@ -22,7 +22,7 @@
 					<ul>
 						<li><a href="soulemast.php">سول مست</a></li>
 						<!-- <li><a href="media.php">نگاره ها</a></li> -->
-						<li><a href="players.php">یاران</a></li>
+						<li><a href="#.php">یاران</a></li>
 						<li><a href="consert.php">رویدادها</a></li>
 						<li><a href="#.php">نگاره ها</a></li>
 					</ul>

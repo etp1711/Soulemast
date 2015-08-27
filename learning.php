@@ -8,7 +8,7 @@
 			<input class="name" placeholder="نام کاربری :"></input>	</br>		
 			<input class="pass" placeholder="رمز عبور :"></input>
 			
-			<input class="ok" type="submit" value="تائید"></input>
+			<input class="ok" type="res" value="تائید"></input>
 
 
 			
