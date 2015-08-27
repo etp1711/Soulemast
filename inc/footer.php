@@ -10,12 +10,12 @@
 			<img src="images/youtube.png" style="width:60px; height:30px; margin-right:5px;" />
 		</div>
 		<div class="box2">
-			<h4><a href="tanbour.php">دربــاره تـنــــــــبور</a></h4>
-			<p><a href="tanbour.php"></a></p>
+			<h4><a href="learning.php">آمــوزش تـنــــــــبور</a></h4>
+			<p><a href="learning.php"></a></p>
 		</div>
 		<div class="box3">
-			<h4><a href="famous.php">نامداران تـنــــــــبور</a></h4>
-			<p><a href="famous.php"></a></p>
+			<h4><a href="tanbour.php">دربــاره تـنــــــــبور</a></h4>
+			<p><a href="tanbour.php"></a></p>
 		</div>
 		<div class="box4">
 			<h4><a href="famous.php">نامداران تـنــــــــبور</a></h4>

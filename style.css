@@ -641,8 +641,13 @@ section.middle .consert .rightbox p{
 
 
 
-/*   Tanbooor Biography        */
 
+
+
+
+
+
+/*   Tanbooor Biography        */
 
 section.middle div.tanbour{
 	background-color: 		#fff;
@@ -808,7 +813,8 @@ section.middle div.tanbour .contain .down-part{
 section.middle div.tanbour .contain .down-part h3{
 	font-size: 					25px;
 	font-weight: 				bolder;
-	text-align: 				right;
+	text-align: 			
+		right;
 	margin-right: 				20px;
 }
 section.middle div.tanbour .contain .down-part .subtitle{
@@ -837,4 +843,65 @@ section.middle div.tanbour div.contain img{
 	width: 					500px;
 	height: 				300px;
 	margin-right: 			240px;
+}
+section.middle div.learning{
+	background-color: 		#fff;
+	margin: 				0 auto;
+	width: 					400px;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			8px 8px 8px 8px;
+	text-align: 			right;
+	direction: 				rtl;
+	min-height: 			300px;
+}
+
+section.middle div.learning h2{
+	margin-top: 			20px;
+	margin-right: 			90px;
+	text-align: 			justify;
+	margin-left: 			100px;
+	font-size: 				18px;
+}
+section.middle div.learning input{
+	width: 					200px;
+	border-radius: 			10px;
+	min-height: 			25px;
+	border: 				inset 2px;
+	margin-right: 			90px;
+	margin-top: 			45px;
+}
+section.middle div.learning .name{
+
+}
+section.middle div.learning .pass{
+	margin-top: 			10px;
+}
+section.middle div.learning .ok{
+	margin-top: 			10px;
+	color: 					black;
+	font:					15px monospace;
+	text-decoration: 		none;
+	cursor: 				pointer;
+	border: 				none;
+	background-color: 		#555;
+	text-align: 			center;
+	width: 					110px;
+	height: 				30px;
+	color: 					#fff;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+}
+
+
+section.middle div.learning .ok:hover{
+	background-color: 		#111;
+	color: 					#eee;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
 }
