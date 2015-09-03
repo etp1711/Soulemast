@@ -1,10 +1,10 @@
 <?php include('./inc/header.php') ?>
 <section class="middle">
-		<div class="gallery" id="loader">
+		<div class="famous" id="loader">
 
 
 
-				<div class="contain">
+				<div class="contain" style="margin-top:0;">
 					<a href="./images/famous/1.jpg" rel="prettyphoto[gallery1]" title="سید خلیل عالی نژاد">
 						<img src="./images/famous/1.jpg" alt="">
 					</a>
@@ -21,7 +21,7 @@
 
 
 
-				<div class="contain two">
+				<div class="contain">
 					<a href="./images/famous/2.jpg" rel='prettyphoto[gallery1]' title="درویش امِیر حیاتی">
 						<img src="./images/famous/2.jpg" alt="">
 					</a>
@@ -52,7 +52,7 @@
 
 
 
-				<div class="contain two">
+				<div class="contain">
 					<a href="./images/famous/4.jpg" rel='prettyphoto[gallery1]' title="طاهر یارویسی">
 						<img src="./images/famous/4.jpg" alt="">
 					</a>
@@ -75,7 +75,7 @@
 
 
 
-				<div class="contain two">
+				<div class="contain">
 					<a href="./images/famous/6.jpg" rel='prettyphoto[gallery1]' title="عبدالرضا رهنما">
 						<img src="./images/famous/6.jpg" alt="">
 					</a>
@@ -86,7 +86,7 @@
 رهنما از دوران کودکی علاقه زیادی به صنعت چوب داشت و کار سازندگی ساز را در سال 1364 با ساخت تنبور آغاز کرد در زمینه ساخت تنبور و سه تار و تار مهارت کافی دارد و در شهرستان صحنه که به شهر اهل دل شهرت دارد کارگاهی را دایر نمود
 
 رهنما در کنار تنبور ، سه تار را هم می نوازد و در سال های 1370 برای آشنایی با ردیف موسیقی نزد ابراهیم سپهری رفته و از محضر ایشان بهره فراوان برده است.</p>
-			<br /><br /></div>09155149745
+			<br /><br /></div>
 
 
 

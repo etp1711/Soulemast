@@ -482,54 +482,37 @@ section.Ajaxloader div.gallery .links a:active{
 
 
 
+
+
+
+
+
+
+
+
 /* Players Page */
 section.middle div.gallery{
-	background-color: 		#fff;
+	
 	width: 					inherit;
 	border-radius: 			20px;
 	margin-bottom: 			50px;
 	padding:		 		1px;
-	box-shadow: 			8px 8px 8px 8px;
+	box-shadow: 			0px 5px 20px 10px gray;
 	text-align: 			right;
 	direction: 				rtl;
-
+	background-color: 		#111;
 
 }
 section.middle div.gallery .contain{
-	width: 					950px;
-	min-height: 			250px;
+	width: 					inherit;
+	min-height: 			850px;
 	padding: 				1px;
-
-}
-section.middle div.gallery .contain a{
 	
 }
-section.middle div.gallery .contain a img{
-	float: 					right;
-	margin-right: 			20px;
-	margin-top: 			50px;
-	width: 					190px;
-	height: 				190px;
-	border-radius: 			11px;
-	opacity: 				0.9;
-	-webkit-transition: opacity 500ms;
-	-moz-transition: opacity 	500ms;
-	-ms-transition: opacity 	500ms;
-	-o-transition: opacity 		500ms;
-	transition: opacity 		500ms;
-}
-section.middle div.gallery .contain a img:hover{
-	opacity: 					1;
-	-webkit-transition: opacity 500ms;
-	-moz-transition: opacity 500ms;
-	-ms-transition: opacity 500ms;
-	-o-transition: opacity 500ms;
-	transition: opacity 500ms;
-}
 section.middle div.gallery .contain h3{
-	margin-top: 			40px;
-	margin-right: 			230px;
-	color: 					#333;
+	margin-top: 			0px;
+	margin-right: 			0px;
+	color: 					white;
 	font-weight: 			bold;
 }
 section.middle div.gallery .contain p{
@@ -540,16 +523,52 @@ section.middle div.gallery .contain p{
 	line-height: 			28px;
 	text-align: 			justify;
 }
-section.middle div.gallery .two a img{
-	float: 					left;
-	margin-left: 			20px;
+section.middle div.gallery .contain ul{
+	margin: 				0 auto;
+	width:    				950px;
+	min-height:				230px;
+	margin-top: 			180px;
+	padding: 				1px;
+	
 }
-section.middle div.gallery .two h3{
-	margin-right: 			600px;
+section.middle div.gallery .contain .ultow{
+	margin: 				0 auto;
+	width:    				950px;
+	min-height:				230px;
+	margin-top: 			20px;
+	padding: 				1px;
+	
 }
-section.middle div.gallery .two p{
-	margin-right: 			50px;
+section.middle div.gallery .contain ul li{
+	float: 					right;
+	margin-top: 			0px;
+	margin-right: 			95px;
 }
+
+section.middle div.gallery .contain ul li:first-child{
+
+}
+section.middle div.gallery .contain li a img{
+	
+	width: 					190px;
+	height: 				190px;
+	border-radius: 			60px;
+	opacity: 				1;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 	500ms;
+	-ms-transition: opacity 	500ms;
+	-o-transition: opacity 		500ms;
+	transition: opacity 		500ms;
+}
+section.middle div.gallery .contain li a img:hover{
+	opacity: 					1;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
 
 section.middle div.gallery .contain .font{
 	font-size: 				20px;
@@ -557,6 +576,124 @@ section.middle div.gallery .contain .font{
 
 
 
+
+
+
+
+
+
+
+
+/* famous Page */
+section.middle div.famous{
+	width: 					inherit;
+	border-radius: 			20px;
+	margin-bottom: 			50px;
+	padding:		 		1px;
+	box-shadow: 			0px 5px 20px 10px gray;
+	text-align: 			right;
+	direction: 				rtl;
+	background-color: 		#fff;
+
+}
+section.middle div.famous .contain{
+	margin-top: 			50px;
+	width: 					inherit;
+	min-height: 			350px;
+	padding: 				1px;
+	float: 					right;
+	
+}
+section.middle div.famous .contain h3{
+	
+	margin-right: 			220px;
+	color: 					black;
+	font-weight: 			bold;
+}
+section.middle div.famous .contain p{
+	margin-right: 			250px;
+	color: 					#000;
+	font-size: 				18px;
+	margin-top: 			50px;
+	margin-left: 			25px;
+	line-height: 			28px;
+	text-align: 			justify;
+}
+
+section.middle div.famous .contain a img{
+	float: 					right;
+	margin-right: 			25px;
+	width: 					190px;
+	height: 				190px;
+	border-radius: 			10px;
+	opacity: 				1;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 	500ms;
+	-ms-transition: opacity 	500ms;
+	-o-transition: opacity 		500ms;
+	transition: opacity 		500ms;
+}
+section.middle div.famous .contain a img:hover{
+	opacity: 					1;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+section.middle div.famous .contain .font{
+	font-size: 				20px;
+}
+section.middle div.famous .two{
+	width: 					inherit;
+	min-height: 			350px;
+	padding: 				1px;
+	float: 					right;
+	margin-top: 			50px;
+	text-align: 			right;
+}
+section.middle div.famous .two h3{
+	
+	margin-right: 			640px;
+	color: 					black;
+	font-weight: 			bold;
+}
+section.middle div.famous .two p{
+	margin-right: 			50px;
+	color: 					#000;
+	font-size: 				18px;
+	margin-top: 			50px;
+	margin-left: 			250px;
+	line-height: 			28px;
+	text-align: 			justify;
+}
+
+section.middle div.famous .two a img{
+	float: 					left;
+	margin-left: 			25px;
+	width: 					190px;
+	height: 				190px;
+	border-radius: 			10px;
+	opacity: 				1;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 	500ms;
+	-ms-transition: opacity 	500ms;
+	-o-transition: opacity 		500ms;
+	transition: opacity 		500ms;
+}
+section.middle div.famous .two a img:hover{
+	opacity: 					1;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
+
+section.middle div.famous .two .font{
+	font-size: 				20px;
+}
 
 
 
@@ -581,6 +718,7 @@ section.middle .consert{
 	padding:		 		1px;
 	box-shadow: 			8px 8px 8px 8px;
 	outline: 				0px solid red;
+
 }
 section.middle .consert .leftbox{
 	width: 					400px;
