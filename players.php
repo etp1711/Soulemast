@@ -65,12 +65,12 @@
 		
 </ul>
 					
-					<ul class=ultow>
+		<ul class=ultow>
 		<li class=litow>
-			<a href="./images/player/" rel="prettyphoto[gallery1]" title="سعید فدائی زاده">
-				<img src="./images/player/" alt="">
+			<a href="./images/player/9.jpg" rel="prettyphoto[gallery1]" title="نیلوفر توسلی">
+				<img src="./images/player/9.jpg" alt="">
 			</a>
-				<h3></h3>
+				<h3>نیلوفر توسلی</h3>
 		</li>
 
 
