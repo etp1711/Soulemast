@@ -83,7 +83,6 @@
 
 
 
-
 				<div class="contain">
 					<a href="./images/famous/5.jpg" rel='prettyphoto[gallery1]' title="کیخسرو پورناظری">
 						<img src="./images/famous/5.jpg" alt="" >
